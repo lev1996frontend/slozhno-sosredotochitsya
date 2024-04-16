@@ -5,8 +5,59 @@
 */
 
 .page.theme_dark {
+  background: url("/images/cover-image-dark.png"), var(--bg-color);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+.theme_dark {
+	--rec-camera-color: #ff0070;
+  --bg-color: #000028;
+  --bg-second-color: #ff0070;
+  --title-color: #db00ff;
+  --title-second-color: #ff0070;
+  --decorate-color: #ff0070;
+  --text-menu-color: #ff0070;
+  --text-title-color: #ff0070;
+  --text-description-color: #000028;
+  --text-subtitle-color: #000028;
+  --text-main-color: #f1b2ce;
+  --hover-color: #ff0070;
+  --footer-effect: #ff0070;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page.theme_auto {
+    background: url("/images/cover-image-dark.png"),
+      var(--bg-color);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.theme_auto {
+	--rec-camera-color: #ff0070;
+	--bg-color: #000028;
+  --bg-second-color: #ff0070;
+  --title-color: #db00ff;
+  --title-second-color: #ff0070;
+  --decorate-color: #ff0070;
+  --text-menu-color: #ff0070;
+  --text-title-color: #ff0070;
+  --text-description-color: #000028;
+  --text-subtitle-color: #000028;
+  --text-main-color: #f1b2ce;
+  --hover-color: #ff0070;
+  --footer-effect: #ff0070;
+	--footer-title-effect: #FF8DCB;
+}
+
+.theme_light>.header>.header__rec {
+	display: none;
 }
