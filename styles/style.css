@@ -21,7 +21,8 @@
 .header {
   display: grid;
   grid-template-rows: auto max-content auto;
-  align-items: center;
+	padding: 0 20px;
+  position: relative;
 }
 
 .header__decorative-element {
@@ -107,7 +108,7 @@
 
   .header__theme-menu {
     justify-self: center;
-    align-self: flex-start;
+    align-self: self-start;
     margin: 0;
   }
 
@@ -123,8 +124,7 @@
   color: var(--text-menu-color);
   text-transform: lowercase;
   background-color: transparent;
-  transition-duration: 0.2s;
-  transition-property: outline;
+  transition: outline, 0.2s, color;
   cursor: pointer;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .header__heading {
-  align-self: flex-start;
+  align-self: self-start;
   margin: 15px 0 0;
   text-shadow: 4px 4px 0 var(--bg-first-color);
 }
