@@ -10,9 +10,10 @@
       чем стили в медиазапросе предпочтений пользователя
     */
   background: url("/images/cover-image-dark.png"), var(--bg-first-color);
-	background-attachment: fixed;
-  background-position: center;
+	background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .theme_dark {
@@ -38,9 +39,6 @@
 @media (prefers-color-scheme: dark) {
   .page.theme_auto {
     background: url("/images/cover-image-dark.png"), var(--bg-first-color);
-		background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
   }
 }
 
@@ -66,8 +64,9 @@
 	@media (prefers-color-scheme: dark) {
 		.page.theme_auto {
 			background: url('/images/cover-image-dark.png'), var(--bg-first-color);
-			background-attachment: fixed;
-			background-position: center;
-			background-size: cover;
+			background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
 		}
 	}
