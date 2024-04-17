@@ -110,9 +110,6 @@
   align-items: center;
   font-family: var(--font-family);
   font-weight: 700;
-	background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
 }
 
 .header {

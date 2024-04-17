@@ -10,6 +10,9 @@
   чем стили в медиазапросе предпочтений пользователя
 */
   background: url("/images/cover-image-light.png"), var(--bg-first-color);
+	background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .theme_light {
@@ -36,23 +39,6 @@
     background-size: cover;
   }
 
-  .theme_auto {
-    --bg-first-color: #fff1f7;
-    --bg-second-color: #ff8dcb;
-    --title-section-accent-color: #ffc2e6;
-    --title-section-shadow-color: #ff0070;
-    --text-menu-color: #353430;
-    --text-title-color: #353430;
-    --text-description-color: #353430;
-    --text-main-color: #353430;
-    --hover-color: #353430;
-    --font-family: "IBM Plex Mono", serif;
-    --footer-title-section-accent-color: #ff8dcb;
-    --decorate-color: #353430;
-    --text-subtitle-color: #353430;
-  }
-}
-
 .page.theme_light .header__decorative-element {
   display: none;
 }
@@ -75,4 +61,5 @@
   .footer_title {
     text-shadow: 2px 2px 0px var(--footer-title-section-accent-color);
   }
+}
 }
