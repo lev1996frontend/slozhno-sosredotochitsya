@@ -8,65 +8,32 @@
   /* сохраните этот селектор в приведённом виде.
       Так стили написанные ниже будут иметь больший вес,
       чем стили в медиазапросе предпочтений пользователя
-    */
-  background: url("/images/cover-image-dark.png"), var(--bg-first-color);
-	background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.theme_dark {
-  --bg-first-color: #000028;
-  --bg-second-color: #ff0070;
-  --title-section-accent-color: #db00ff;
-  --title-section-shadow-color: #ff0070;
-  --decorate-color: #ff0070;
-  --text-menu-color: #ff0070;
-  --text-title-color: #ff0070;
-  --text-description-color: #000028;
-  --text-subtitle-color: #000028;
-  --text-main-color: #f1b2ce;
-  --hover-color: #ff0070;
-  --rec-decorative-element: #ff0070;
-  --footer-title-section-accent-color: #ff0070;
-}
-
-.theme_dark > .header > .header__decorative-element {
-	display: block;
-}
-
-@media (prefers-color-scheme: dark) {
-  .page.theme_auto {
-    background: url("/images/cover-image-dark.png"), var(--bg-first-color);
-  }
-}
-
-  .theme_auto {
-    --bg-first-color: #000028;
-    --bg-second-color: #ff0070;
-    --title-section-accent-color: #db00ff;
-    --title-section-shadow-color: #ff0070;
-    --decorate-color: #ff0070;
-    --text-menu-color: #ff0070;
-    --text-title-color: #ff0070;
-    --text-description-color: #000028;
-    --text-subtitle-color: #000028;
-    --text-main-color: #f1b2ce;
-    --hover-color: #ff0070;
-    --rec-decorative-element: #ff0070;
-    --footer-title-section-accent-color: #ff0070;
-  }
-
-	.theme_light>.header>.header__decorative-element {
-    display: none;
-  }
-	@media (prefers-color-scheme: dark) {
-		.page.theme_auto {
-			background: url('/images/cover-image-dark.png'), var(--bg-first-color);
-			background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-attachment: fixed;
+    */		 
+			--bg-first-color: #ff0070;
+			--bg-second-color: #000028;
+			--title-section-accent-color: #db00ff;
+			--text-main-color: #f1b2ce;
+			--hover-color: #ff007066;
+			--article-h2-color: #ff0070;
+			--decorate-color: #ff0070;
+			--text-menu-color: #ff0070;
+			--headers-clr: #ff0070;
+			--rec-decorative-element: #ff0070;
+			--cover-image: url(../images/cover-image-dark.png);
 		}
-	}
+
+	@media (prefers-color-scheme: dark) {
+		:root {
+				--bg-first-color: #ff0070;
+				--bg-second-color: #000028;
+				--title-section-accent-color: #db00ff;
+				--text-main-color: #f1b2ce;
+				--hover-color: #ff007066;
+				--article-h2-color: #ff0070;
+				--decorate-color: #ff0070;
+				--text-menu-color: #ff0070;
+				--headers-clr: #ff0070;
+				--rec-decorative-element: #ff0070;
+				--cover-image: url(../images/cover-image-dark.png);
+			}
+		}
