@@ -1,8 +1,5 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-:root {
-  --font-size: 18px;
-  --font-family: "IBM Plex mono", serif;
-}
+
 *,
 *::before,
 *::after {
