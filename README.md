@@ -25,7 +25,7 @@ https://github.com/lev1996frontend/slozhno-sosredotochitsya.git
 ### Ссылки
 
 - URL решения: [Github](https://github.com/lev1996frontend/slozhno-sosredotochitsya)
-- URL лайв сервера: [Github](https://github.com/lev1996frontend/slozhno-sosredotochitsya.git)
+- URL лайв сервера: [Github](https://lev1996frontend.github.io/slozhno-sosredotochitsya/)
 
 ## Автор
 
