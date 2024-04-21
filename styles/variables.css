@@ -8,8 +8,9 @@
 		--bg-second-color: #000028;
 		--title-section-accent-color: #db00ff;
 		--text-main-color: #f1b2ce;
-		--article-h2-color: #ff0070;
-		--hover-color: #ff007066;
+		--section-h2-color: #ff0070;
+		--hover-color: rgba(255, 0, 112, 0.4);
+		--hover-color-link: rgba(241, 178, 206, 1);
 		--decorate-color: #ff0070;
 		--text-menu-color: #ff0070;
 		--headers-clr: #ff0070;
@@ -17,7 +18,7 @@
 		--cover-image: url(../images/cover-image-dark.png);
 		--gap: 20px;
 		--font-familly-main: 'IBM Plex mono', monospace;
-		--font-size-text-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+		--font-size-text-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
   	--font-size-text-desktop-tablet: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 	}
 	
