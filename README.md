@@ -10,10 +10,10 @@ https://github.com/lev1996frontend/slozhno-sosredotochitsya.git
 
 ### Скриншоты
 
-![1024/768-themedark](./screenshots/screenshotdark.png)
-![1024/768-themelight](./screenshots/screenshotlight.png)
-![375/668-themedark-m](./screenshots/screenshotdarkmobile.png)
-![375/668-themelight-m](./screenshots/screenshotlightmobile.png)
+![](./screenshots/screenshotdark.png)
+![](./screenshots/screenshotlight.png)
+![](./screenshots/screenshotdarkmobile.png)
+![](./screenshots/screenshotlightmobile.png)
 
 ### Макет
 
