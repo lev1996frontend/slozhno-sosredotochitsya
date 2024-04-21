@@ -3,20 +3,17 @@ https://github.com/lev1996frontend/slozhno-sosredotochitsya.git
 # Яндекс Практикум, проект "Сложно сосредоточиться"
 
 ## Оглавление
-
-- [Яндекс Практикум, проект "Сложно сосредоточиться"](#яндекс-практикум-проект-сложно-сосредоточиться)
-	- [Оглавление](#оглавление)
-		- [Скриншот](#скриншот)
-		- [Макет](#макет)
-		- [Ссылки](#ссылки)
+	- [Скриншоты](#скриншоты)
+	- [Макет](#макет)
+	- [Ссылки](#ссылки)
 	- [Автор](#автор)
 
-### Скриншот
+### Скриншоты
 
-![](./screenshots/screenshotdark.png)
-![](./screenshots/screenshotlight.png)
-![](./screenshots/screenshotdarkmobile.png)
-![](./screenshots/screenshotlightmobile.png)
+![1024/768-themedark](./screenshots/screenshotdark.png)
+![1024/768-themelight](./screenshots/screenshotlight.png)
+![375/668-themedark-m](./screenshots/screenshotdarkmobile.png)
+![375/668-themelight-m](./screenshots/screenshotlightmobile.png)
 
 ### Макет
 
