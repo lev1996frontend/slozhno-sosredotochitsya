@@ -5,10 +5,12 @@
   --title-section-accent-color: #ffc2e6;
   --text-main-color: #353430;
   --hover-color: #32312d66;
+	--hover-color-link: #353430;
+	--focus-visible-menu: #353430;
   --decorate-color: #353430;
   --text-menu-color: #353430;
   --rec-decorative-element: transparent;
-  --article-h2-color: #353430;
+  --section-h2-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -20,9 +22,11 @@
     --title-section-accent-color: #ffc2e6;
     --text-main-color: #353430;
     --hover-color: #32312d66;
+		--hover-color-link: #353430;
+		--focus-visible-menu: #353430;
     --decorate-color: #353430;
     --text-menu-color: #353430;
     --rec-decorative-element: transparent;
-    --article-h2-color: #353430;
+    --section-h2-color: #353430;
   }
 }

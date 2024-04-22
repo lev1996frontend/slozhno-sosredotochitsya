@@ -86,7 +86,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  margin: 5px 0 0;
+  /* margin: 5px 0 0; */
 	align-self: center;
 }
 
@@ -96,12 +96,12 @@
   gap: 13px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
   .header__theme-menu {
     margin: 10px 0 0;
   }
-}
+} */
 
 @media (min-width: 1024px) {
 
@@ -135,7 +135,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--focus-visible-light);
+  border-bottom: 1px solid var(--focus-visible-menu);
   outline: none;
 }
 
@@ -392,8 +392,14 @@ padding: 10px 10px;
 }
 }
 
-@media (max-width >= 375px)   {
+@media (width >= 375px) and (width <= 650px) {
 	.page {
-    padding: 20px;
+		padding: 10px;
+	}
 }
+
+@media (width >= 650px) and (width <= 768px) {
+	.page {
+		padding: 20px;
+	}
 }

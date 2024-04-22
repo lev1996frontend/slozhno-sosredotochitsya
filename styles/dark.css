@@ -14,7 +14,9 @@
 	--title-section-accent-color: #db00ff;
 	--text-main-color: #f1b2ce;
 	--hover-color: #ff007066;
-	--article-h2-color: #ff0070;
+	--hover-color-link: #F1B2CE;
+	--focus-visible-menu: #FF0070;
+	--section-h2-color: #ff0070;
 	--decorate-color: #ff0070;
 	--text-menu-color: #ff0070;
 	--headers-clr: #ff0070;
@@ -29,7 +31,9 @@
 				--title-section-accent-color: #db00ff;
 				--text-main-color: #f1b2ce;
 				--hover-color: #ff007066;
-				--article-h2-color: #ff0070;
+				--hover-color-link: #F1B2CE;
+				--focus-visible-menu: #FF0070;
+				--section-h2-color: #ff0070;
 				--decorate-color: #ff0070;
 				--text-menu-color: #ff0070;
 				--headers-clr: #ff0070;
