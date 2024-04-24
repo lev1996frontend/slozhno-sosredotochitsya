@@ -138,15 +138,6 @@
   pointer-events: none;
 }
 
-@media (any-hover: hover) {
-  .header__theme-menu-button:hover {
-    outline: 1px solid var(--hover-color);
-  }
-.accented-link:hover {
-		border-bottom: 1px solid var(--hover-color-link);
-	}
-}
-
 .header__heading {
   align-self: self-start;
   margin: 15px 0 0;
