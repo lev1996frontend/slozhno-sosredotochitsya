@@ -109,7 +109,7 @@
 
 .header__theme-menu-button {
   border: none;
-	padding: 0px 14px;
+  padding: 0px 14px;
 	padding-top: 6px;
 	padding-bottom: 4px;
   outline: 1px solid transparent;
@@ -120,8 +120,17 @@
 	line-height: 1;
 }
 
-.header__theme-menu-button:hover {
-  outline: 1px solid var(--hover-color);
+
+
+@media (any-hover:hover) {
+	.header__theme-menu-button:hover {
+		outline: 1px solid var(--hover-color);
+		cursor: pointer;
+	}
+
+	.accented-link:hover {
+		border-bottom: 1px solid var(--hover-color-link);
+	}
 }
 
 .header__theme-menu-button:focus {
@@ -219,10 +228,6 @@
 
 .accented-link:focus-visible {
 	outline: 1px solid var(--hover-color-link);
-}
-
-.accented-link:hover {
-	border-bottom: 1px solid var(--hover-color-link);
 }
 
 .paragraph-text {
